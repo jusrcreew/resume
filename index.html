@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<title>Казора Дмитрий — Резюме</title>
+
+<style>
+
+body{
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg,#667eea,#764ba2);
+    margin:0;
+    padding:0;
+    color:#333;
+}
+
+.container{
+    max-width:1000px;
+    margin:40px auto;
+    background:white;
+    border-radius:12px;
+    padding:40px;
+    box-shadow:0 10px 30px rgba(0,0,0,0.2);
+}
+
+header{
+    text-align:center;
+    margin-bottom:40px;
+}
+
+header h1{
+    margin:0;
+    font-size:36px;
+}
+
+header p{
+    color:#777;
+    font-size:18px;
+}
+
+.grid{
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    gap:30px;
+}
+
+.card{
+    background:#f7f7f7;
+    padding:25px;
+    border-radius:10px;
+    transition:0.3s;
+}
+
+.card:hover{
+    transform:translateY(-5px);
+    box-shadow:0 8px 20px rgba(0,0,0,0.15);
+}
+
+h2{
+    margin-top:0;
+    color:#444;
+}
+
+.skills li{
+    list-style:none;
+    background:#667eea;
+    color:white;
+    padding:8px;
+    border-radius:6px;
+    margin-bottom:8px;
+    width:fit-content;
+}
+
+.contacts a{
+    color:#667eea;
+    text-decoration:none;
+}
+
+.contacts a:hover{
+    text-decoration:underline;
+}
+
+footer{
+    text-align:center;
+    margin-top:40px;
+    color:#777;
+}
+
+@media(max-width:800px){
+    .grid{
+        grid-template-columns:1fr;
+    }
+}
+
+</style>
+</head>
+
+<body>
+
+<div class="container">
+
+<header>
+<h1>Казора Дмитрий</h1>
+<p>Студент • Веб-разработчик</p>
+</header>
+
+<div class="grid">
+
+<div class="card">
+<h2>🎓 Образование</h2>
+<p><b>IThub</b></p>
+<p>Специальность: веб-разработчик</p>
+<p>2025 — настоящее время</p>
+<p>2 курс</p>
+</div>
+
+<div class="card">
+<h2>💼 Опыт работы</h2>
+<p>Пока не работал.</p>
+<p>Сейчас обучаюсь веб-разработке и развиваю навыки программирования.</p>
+</div>
+
+<div class="card">
+<h2>💻 Навыки</h2>
+<ul class="skills">
+<li>Python</li>
+<li>Flask</li>
+<li>HTML</li>
+<li>CSS</li>
+<li>Git</li>
+<li>SQL</li>
+</ul>
+</div>
+
+<div class="card">
+<h2>🎮 Увлечения</h2>
+<p>Музыка</p>
+<p>Играть на компьютере</p>
+</div>
+
+<div class="card contacts">
+<h2>📞 Контакты</h2>
+<p>Телефон: 89166105551</p>
+<p>Email: kazoradd24@st.ithub.ru</p>
+<p>GitHub: <a href="https://github.com/jusrcreew" target="_blank">github.com/jusrcreew</a></p>
+</div>
+
+<div class="card">
+<h2>🌍 Языки</h2>
+<p>Русский — родной</p>
+<p>Английский — A2+</p>
+</div>
+
+</div>
+
+<footer>
+<p>© 2025 Казора Дмитрий</p>
+</footer>
+
+</div>
+
+</body>
+</html>
